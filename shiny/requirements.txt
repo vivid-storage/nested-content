@@ -1,0 +1,5 @@
+anywidget
+shiny
+shinywidgets
+altair
+pandas
