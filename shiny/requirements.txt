@@ -1,4 +1,5 @@
 anywidget
+#shiny - remove the pinned version of Shiny. https://github.com/posit-hosted/vivid-serving-tests/issues/26; see the slack thread. May need to update content
 shiny==0.10.2
 shinywidgets
 altair
