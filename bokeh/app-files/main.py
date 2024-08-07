@@ -8,7 +8,7 @@ from os.path import dirname, join
 from pathlib import Path
 
 import bokeh.sampledata
-#bokeh.sampledata.download()
+bokeh.sampledata.download()
 
 import numpy as np
 import pandas.io.sql as psql
