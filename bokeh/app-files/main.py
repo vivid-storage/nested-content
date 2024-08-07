@@ -8,7 +8,6 @@ from os.path import dirname, join
 from pathlib import Path
 
 import bokeh.sampledata
-#bokeh.sampledata.download()
 
 import numpy as np
 import pandas.io.sql as psql
@@ -19,8 +18,6 @@ from bokeh.models import ColumnDataSource, Div, Select, Slider, TextInput
 from bokeh.plotting import figure
 from bokeh.sampledata.movies_data import movie_path
 
-#import bokeh.sampledata
-#bokeh.sampledata.download()
 
 conn = sql.connect(movie_path)
 query = (Path(__file__).parent / 'query.sql').read_text("utf8")
